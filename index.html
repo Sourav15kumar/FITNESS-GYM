@@ -1,1 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
+
+   
+    
+    <title>fitness gym</title>
+</head>
+<body>
+    <div class="nav">
+        
+        <div class="logo"><div class="image"><img src="gym1logo.jpg" alt=""></div></div>
+
+        <ul id="menulist">
+
+        <li><div class="home"><a href="#page1">home</a></div></li>
+        <li><div class="aboutus"><a href="#section-aboutus">about us</a></div></li>
+        <li><div class="membership"><a href="#pricesection">membership</a></div></li>
+        <li> <div class="contact"><a href="#contactcontainer">contact us</a></div></li>
+       
+    </ul>
+
+    <div class="menuicon">
+        <i class="ri-menu-fill" onclick="togglemenu()"></i>
+    </div>
+    </div>
+    <video autoplay loop  mute src="5319760-uhd_3840_2160_25fps.mp4"></video>
+    <div id="main">
+        <div id="page1">
+            <h1>NO PAIN <span>NO GAIN</span> </h1>
+            <h2>WELCOME to fitness gym family</h2>
+            <h3>Having a perfect body requires a lot of training. Nice-looking body and <br>powerful organism are interconnected and we can help you with both.</h3>
+        </div>
+        <div class="page2" id="page2">
+            <div class="simpleform">
+                <div class="simpleform-text">
+                    <h3>Experience the Fitness Wave <br>at your nearest locality for get fit & strong !</h3>
+                <h1><i>join fitness gym today </i></h1>
+        
+            <div class="form">
+                    <input type="name" placeholder="NAME">
+                    <input type="email" placeholder="EMAIL">
+                    <input type="mobile" placeholder="MOBILE NO.">
+                 
+                </div>
+                <div class="seachbtn">
+                    <button>GET started</button>
+                </div>
+           
+            </div>
+        </div>
+
+        <section class="section-aboutus" id="section-aboutus">
+            <div class="about-img">
+                <img src="about us image.jpg" alt="about us">
+            </div>
+
+            <div class="about-container">
+                <div class="content-para">
+                <h1>Why Choose Us ?</h1>
+                <p> our diverse membership base creates a friendly and supportive atmosphere , where you can make friends and stay motivated</p>
+                <p>Helping individuals achieve their fitness goals through personalized programs and expert guidance</p>
+                <p>Flexible membership plans, 24/7 access, child-friendly services</p>
+                <p>Certified and experienced trainers to guide you on your fitness journey.</p>
+
+                <div class="textnumber">
+                    <div class="membertext">
+                        <h3> 10k</h3>
+                        <h5>Happy Clients</h5>
+                    </div>
+                    <div class="mentortext">
+                        <h3>2k</h3>
+                        <h5>Famous Mentor</h5>
+                    </div>
+                </div>
+
+                <a href="#" class="about-btn">Book Free Class</a>
+                
+            </div>
+            </div>
+        </section>
+
+
+                                                                    <!-- check bmi page  -->
+     <div class="bmipage">
+        <div class="bmicalculator">
+            <div class="bmiheading">
+                <h2>CHECK YOUR BMI</h2>
+            </div>
+            <div class="text" type="number">Height (cm)</div>
+            <input type="text" id="height">
+
+            <div class="text" type="number">Weight (kg)</div>
+            <input type="text" id="weight">
+            <div id="result"></div>
+            
+            <div id="report"></div>
+            <div id="bmibtn" onclick="bmi()"><button>CHECK BMI</button></div>
+            <p>NORMAL BMI - 18.5 to 24.9</p>
+            <div id="info">Please enter Height [cm] weight [kg]</div>
+        </div>
+
+    <div class="bmiimg">
+        <img src="bmi img.jpg" alt="">
+    </div>
+     </div>                                                                
+       
+
+                                           <!--          membership section           -->
+
+    <div class="pricesection" id="pricesection">
+        <div class="priceheading">our     <span>Membership</span></div>
+        <div class="priceplansbox">
+                                  <!-- firstplan -->
+            <div class="singleplan">
+                <h2>BASIC</h2>
+                <h3>$100/Month</h3>
+                <ul>
+                    <li><i class="ri-discount-percent-line"></i>  smart workout plan</li>
+                    <li><i class="ri-discount-percent-line"></i>  one trainer available</li>
+                </ul>
+                <a href="#">Join Now
+                    <i class="ri-arrow-right-line"></i>
+                   
+                </a>
+            </div>
+
+           <!-- secondplan -->
+
+            <div class="singleplan">                 
+                <h2>PRO</h2>
+                <h3>$150/Month</h3>
+                <ul>
+                    <li><i class="ri-discount-percent-line"></i>  workout at home</li>
+                    <li><i class="ri-discount-percent-line"></i>  smart workout plan</li>
+                    <li><i class="ri-discount-percent-line"></i>  one trainer available</li>
+                </ul>
+                <a href="#">Join Now
+                    <i class="ri-arrow-right-line"></i>
+                   
+                </a>
+            </div>
+                               <!-- thirdplan -->
+            <div class="singleplan">
+                <h2>PREMIUM</h2>
+                <h3>$300/Month</h3>
+                <ul>
+                    <li><i class="ri-discount-percent-line"></i>  workout at home</li>
+                    <li><i class="ri-discount-percent-line"></i>  smart workout plan</li>
+                    <li><i class="ri-discount-percent-line"></i>  one trainer available</li>
+                    <li><i class="ri-discount-percent-line"></i>  access of fitness app</li>
+                    <li><i class="ri-discount-percent-line"></i>  personal traning</li>
+                </ul>
+                <a href="#">Join Now
+                    <i class="ri-arrow-right-line"></i>
+                   
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+
+
+                                                             <!-- customer review -->
+<div class="reviewcontainer" id="reviewcontainer">
+     <div class="reviewheading"><h2>Testimonials</h2>
+            <h3>our happy fitness Clients </h3> </div>
+                                           <!-- swipper -->
+            
+               <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"> <img src="reviewimage1.jpeg" alt="">
+                    <h3>Sourav kumar</h3>
+                    <div class="reviewparagraph">
+                    <p>"Joining Fitness Gym  was a game-changer. The trainers push me to my limits, and I've gained strength and confidence in every session. Truly a fantastic gym!"</p></div>
+                    <div class="starreview">⭐⭐⭐⭐⭐</div>
+                </div>
+
+                  <div class="swiper-slide">
+                    <img src="review image 3.jpg" alt="">
+                    <h3>Simran Kaur</h3>
+                    <div class="reviewparagraph">
+                    <p>"Fitness Gym has transformed my fitness journey! Personalized workouts and a motivating atmosphere helped me achieve my goals faster. Highly recommend this gym!"</p></div>
+                    <div class="starreview">⭐⭐⭐⭐</div>
+                </div>
+
+                  <div class="swiper-slide">
+                    <img src="reviewimage3.jpg" alt="">
+                    <h3>Neeraj Singh</h3>
+                    <div class="reviewparagraph">
+                    <p>"Fitness Gym offers the perfect balance of strength and flexibility training. The supportive environment and expert trainers make every workout enjoyable and effective!"</p></div>
+                    <div class="starreview">⭐⭐⭐⭐⭐</div>
+                  </div>
+
+
+                  <div class="swiper-slide"><img src="review image 5.jpg" alt="">
+                    <h3>Neha Jain</h3>
+                    <div class="reviewparagraph">
+                    <p>"I absolutely love my experience at this gym! The trainers are knowledgeable and the workouts are tailored to my goals. I've seen great results in just a few weeks."</p></div>
+                    <div class="starreview">⭐⭐⭐⭐⭐</div>
+                </div>
+
+
+                  <div class="swiper-slide"><img src="review image 4.jpg" alt="">
+                    <h3>Rahul Kumar</h3>
+                    <div class="reviewparagraph">
+                    <p>"This gym is fantastic! The equipment is top-notch, and the supportive staff keeps me motivated. I gained strength and energy, and I’m seeing amazing progress. Definitely the best decision!"</p></div>
+                    <div class="starreview">⭐⭐⭐⭐⭐</div>
+                </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+              </div>
+
+                                              <!--          contact US Section              -->
+    
+ <div class="contactcontainer" id="contactcontainer">
+    <div class="contactmainheading"><h3><span>Contact</span> us</div></h3>
+
+    <div class="contactcontent">
+
+        <div class="contentbox1">
+        <h2 class="contentheading">Let's get in touch</h2> 
+        <p class="content-sub-heading">for any query</p> 
+        <div class="info">
+            <div class="info-img">
+                <i class="ri-map-pin-line"></i>
+                <p>Building Block-2A Near SK Company Building ,Sector-37, Faridabad,Haryana </p>
+            </div>
+            <div class="info-img">
+                <i class="ri-mail-line"></i>
+                <p>souravkumar252004@gmail.com</p>
+            </div>
+
+            <div class="info-img">
+                <i class="ri-phone-fill"></i>
+                <p>9873386616</p>
+            </div>
+     </div>
+
+                                       <!--  social media icons -->
+
+     <div class="socialmedia">
+        <div class="socialmedia-heading">Connect with us</div>
+        <div class="socialmedia-img">
+            <a href="https://www.instagram.com/kumarsourav.15/"><i class="ri-instagram-fill"></i>
+            </a>
+            <a href="#"><i class="ri-facebook-box-fill"></i>
+            </a>
+            <a href="https://www.google.com/maps/dir//Sector+37"><i class="ri-map-pin-fill"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/sourav-kumar-3ba11428a/"><i class="ri-linkedin-box-fill"></i>
+            </a>
+        </div>
+     </div>
+                                  <!--  social media icons over -->
+
+    <!-- <div>
+        <label for email=""></label>
+        <input type="text"
+        name="email"
+        placeholder="demoemail.com"
+        id="email"
+        autocomplete="off"
+        required 
+        />
+    </div>                               -->
+    
+   
+
+
+
+     </div>
+
+     <div class="contentbox2">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <h3>Get in touch</h3>
+            <!-- for getting messages on email -->
+            <input type="hidden" name="access_key" value="3e688bc8-47f8-4362-9860-a5c91d756654">
+    
+            <input type="text" name="name" id="name" placeholder="Your name" required>
+    
+            <input type="email" name="email" id="email" placeholder="Email Id" required>
+    
+            <input type="text" name="phone" id="phone" placeholder="Phone no." required>
+    
+            <textarea name="message" rows="7" placeholder="How can we help you?" required></textarea>
+    
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+
+
+    </div>
+ </div>                                             
+
+
+
+
+
+</div>
+     
+
+      
+                                                             
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js">
+ </script>
+
+
+</body>
+</html>
